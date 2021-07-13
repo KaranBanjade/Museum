@@ -1,6 +1,7 @@
 body{
     background-color: #f5d9d5;
     font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
 }
 
 #MainNav .navbar-brand {
@@ -25,10 +26,46 @@ body{
 }
 #heading h1{
     font-weight: 100;
-    font-size: 4rem;
+    text-shadow:2px 4px 9px rgb(255, 0, 255) ;
+    font-size: 3.5rem;
 }
 
-@media(max-width: 1428px)
+/* Second Level */
+.blurb h2{
+    color:#ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+.content{
+    margin-top: 20px;
+}
+
+.navbar.scrolled{
+background: rgb(222,192,222);
+
+}
+@media(min-width: 1100px)
+{
+    #heading h1{
+        font-weight: 100;
+        font-size: 2.7rem;
+    }
+}
+@media(min-width: 1350px)
+{
+    #heading h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 1450px)
 {
     #heading h1{
         font-weight: 100;
@@ -36,17 +73,3 @@ body{
     }
 }
 
-@media(max-width: 1326px)
-{
-    #heading h1{
-        font-weight: 100;
-        font-size: 3rem;
-    }
-}
-@media(max-width: 1091px)
-{
-    #heading h1{
-        font-weight: 100;
-        font-size: 2.7rem;
-    }
-}
